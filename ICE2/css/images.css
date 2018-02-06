@@ -1,0 +1,50 @@
+
+
+img {
+
+	border: 3px solid black;
+	padding: 5%;
+	margin: 40px;
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+
+}
+
+div .bar {
+	background: grey;
+
+}
+
+
+
+img.hover:hover {
+	border-radius: 40%;
+
+}
+
+img.hover:focus,
+img.active:focus {
+	outline-style: solid;
+	outline-color: blue;
+	outline-width: thin;
+
+}
+
+img.focus:focus {
+	outline-style: solid;
+	outline-color: blue;
+	outline-width: thin;
+	filter: grayscale(100%);
+
+}
+
+img.focus:hover {
+
+	color: black;
+	opacity: 90%;
+	outline-style: solid;
+	outline-width: thin;
+
+}
+

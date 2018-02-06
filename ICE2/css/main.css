@@ -1,0 +1,78 @@
+header h1 {
+	background-color: yellow;
+	text-align: right;
+
+
+}
+
+*{
+	margin: 0;
+}
+/*wipes out margin of everything. makes page a bit uglier. must go in and add margins. good programming practice to use default style sheet.
+turns off all the margin, all the padding, all list styles, everything is ugly. 
+as you go in and add rules to make page look better, you know page will look the same on every browser.
+*/
+nav{
+	background-color: green;
+
+}
+
+#wrap{
+	margin: 0px;
+}
+nav li{
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	color: white;
+	background-color: black;
+
+body {
+	background-color: grey;
+
+}
+
+}
+
+aside{
+	right: 0px;
+	position: absolute;
+	background-color: white;
+	background-image: url("http://www.literarygenius.info/images/william-shakespeare.jpg");
+	background-position: 100% 18%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 867px;
+	width: 20%;
+
+
+
+
+}
+
+#content {
+	background-color: grey;
+	text-decoration: none;
+	width: 80%;
+}
+
+
+#content li {
+	list-style: none;
+	text-align: center;
+	width: 80%;
+}
+
+nav a:link {
+	color:white;
+	text-decoration: none;
+}
+
+footer {
+	background-color: green;
+	height: 20px;
+	padding: 20px;
+	width: 80%;
+}
