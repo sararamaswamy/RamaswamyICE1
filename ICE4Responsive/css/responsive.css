@@ -6,9 +6,9 @@
 }
 }
 
-@media only screen and (max-width: 1000px){
-	.top-nav ul li, .menu-icon {
-	border-top: 1px solid #DDDDDA; 
+@media only screen and (min-width: 1000px){
+	.top-nav ul li {
+	border-top: none; 
 }
 
 }
@@ -48,11 +48,15 @@
 @media only screen and (min-width: 1000px) {
 	.top-nav ul {
 		text-align: right;
+		height: 62px;
 
 	}
 	.top-nav ul li {
 		padding-right: 15px;
+		margin-bottom: 0px;
+		display: inline-block;
 	}
+
 
 	.black, .maroon, .green, .lightblue, .red  {
 		display: inline-block;
@@ -66,6 +70,12 @@
 		text-align: left;
 		margin: 5px;
 
+	}
+
+	.logo a {
+		position: absolute;
+		bottom: 0px;
+		left: 20px;
 	}
 
 
