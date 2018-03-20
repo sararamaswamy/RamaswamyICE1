@@ -49,41 +49,6 @@
 
 /*small viewport nav*/
 
-@media screen and (min-width: 650px) {
-	.top-nav a{
-		display: inline;
-		text-align: right;
-		padding: 15px 50px;
-		text-decoration: none;
-		font-size: 18px;
-		top: 50%;
-		bottom: 50%;
-	}
-
-	.logo {
-		left: 0px;
-	}
-	
-	
-}
-
-@media screen and (max-width: 650px) {
-	.top-nav a{
-		display: block;
-		text-align: center;
-		padding: 15px 50px;
-		text-decoration: none;
-		font-size: 18px;
-		top: 50%;
-		bottom: 50%;
-	}
-
-	.logo {
-		left: 0px;
-	}
-	
-	
-}
 
 /*Medium viewport nav */
 
@@ -104,6 +69,27 @@
 	
 	
 }
+
+
+
+@media screen and (min-width: 1000px) {
+	.top-nav a{
+		display: inline;
+		text-align: right;
+		padding: 15px 50px;
+		text-decoration: none;
+		font-size: 18px;
+		top: 50%;
+		bottom: 50%;
+	}
+
+	.logo {
+		left: 0px;
+	}
+	
+	
+}
+
 
 @media screen and (max-width: 650px) {
 	.welcomeblock h1 {
