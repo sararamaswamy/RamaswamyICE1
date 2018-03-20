@@ -47,8 +47,10 @@ nav #myTopNav {
 
 .welcomeblock h1 {
 font-family: Futura;
-font-size: 32px;
+font-size: 42px;
 }
+
+
 
 .top-nav a {
 	display: block;
@@ -61,7 +63,7 @@ font-size: 32px;
 	padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
-	font-size: 18px;
+	font-size: 32px;
 
 
 }
