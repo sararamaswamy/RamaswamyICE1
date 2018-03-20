@@ -1,0 +1,119 @@
+/*@media screen and (max-width: 600 px) {
+	.top-nav a:not(first-child) {display: none;}
+	.top-nav a.icon {
+		float:right;
+		display: block;
+	}
+}
+
+@media screen and (max-width: 600 px) {
+	.top-nav {position: relative;}
+	.top-nav.responsive a.cion {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.top-nav.responsive a {
+		float: none;
+		display: block;
+		text-align: left ;
+	}
+}
+*/
+
+
+@media only screen and (min-width: 650px) {
+	.yellow, .blue {
+	display: inline-block;
+	width: 46%;
+	text-align: left;
+	margin: 5px;
+
+	}
+
+}
+
+.black, .maroon, .green, .lightblue, .red  {
+		display: inline-block;
+		width: 46%;
+		text-align: left;
+		margin: 5px;
+	}
+	.yellow, .blue {
+		display: inline-block;
+		width: 22%;
+		text-align: left;
+		margin: 5px;
+
+	}
+
+
+/*small viewport nav*/
+
+@media screen and (min-width: 900px) {
+	.top-nav a{
+		display: inline;
+		text-align: right;
+		padding: 15px 50px;
+		text-decoration: none;
+		font-size: 18px;
+		top: 50%;
+		bottom: 50%;
+	}
+
+	.logo {
+		left: 0px;
+	}
+	
+	
+}
+
+/*Medium viewport nav */
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+	.top-nav a{
+		display: inline;
+		text-align: right;
+		padding: 15px 25px;
+		text-decoration: none;
+		font-size: 18px;
+		top: 50%;
+		bottom: 50%;
+	}
+
+	.logo {
+		left: 0px;
+	}
+	
+	
+}
+
+@media screen and (max-width: 650px) {
+	.welcomeblock h1 {
+		font-size: 17px;
+	}
+
+	.welcomeblock {
+		background-size: contain;
+
+	}
+
+}
+
+
+@media screen and (min-width: 1000px) {
+
+	.welcomeblock {
+		background-size: cover;
+
+	}
+
+}
+
+
+@media screen and (min-width: 1000px) {
+	.welcomeblock h1 {
+		font-size: 32px;
+	}
+
+}

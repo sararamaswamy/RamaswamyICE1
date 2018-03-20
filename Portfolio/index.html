@@ -1,0 +1,122 @@
+<!DOCTYPE html>	
+<html lang="en">
+<head>
+	<title> Sara Ramaswamy's Portfolio </title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+	function tryingFunction() {
+		var x = document.getElementById("myTopNav");
+		if (x.className === "top-nav") {
+			x.className += " responsive";
+
+		}
+		else {
+			x.className = "top-nav";
+		}
+
+	}
+
+	window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("myTopNav");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+    
+    </script>
+<body>
+	<header>
+		<nav class = "top-nav" id="myTopNav">
+			<div class = "logo">
+			<a href = "index.html"> <img src = "assets/NavLogo.jpg" alt = "Sara Ramaswamy navigation logo">
+			</a>
+			</a>
+			<a href="/aboutme.html">About Me </a> 
+			<a href="/Projects.html"> Projects</a> 
+			<a href= "https://medium.com/@sararamaswamy"> Writing</a>
+			<a href="https://www.linkedin.com/in/sara-ramaswamy-06a180124/"> <img src = "assets/LinkedInIcon.jpg"> </a> 
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+		</nav>
+	</header>
+		<div class = "welcomeblock" id ="MakerSpace">
+			<h1> Welcome to My Maker Space </h1>
+		</div>
+		<div class ="processblock">
+			<img src = "assets/process.png">
+
+			<section class="crafts">
+			<h1>Projects</h1>
+			<div class="photo-grid">
+				<div class="photo-cell black"> 
+					<a href = "#"> <img class="resp-img" src="assets/prudentiallogo.png" alt="Black Horizontal Rectangle"> </a>
+					<div class = "text-block">
+						<a href = "#"> <h4> Prudential </h4> </a>		
+				</div>
+				
+
+				<div class="photo-cell maroon">
+					<img class="resp-img" src="img/img2.jpg" alt="Maroon Horizontal Rectangle">
+				</div>
+				<div class="photo-cell yellow">
+					<img class="resp-img" src="img/img3.jpg" alt="Yellow Vertical  Rectangle">
+				</div>
+				<div class="photo-cell blue">
+					<img class="resp-img" src="img/img4.jpg" alt="Bluish-purple Vertical  Rectangle">
+				</div>
+				<div class="photo-cell green">
+					<img class="resp-img" src="img/img5.jpg" alt="Green Horizontal Rectangle">
+				</div>
+				<div class="photo-cell lightblue ">
+					<img class="resp-img" src="img/img6.jpg" alt="Light Blue Horizontal Rectangle">
+				</div>
+				<div class="photo-cell  red">
+					<img class="resp-img" src="img/img7.jpg" alt="Red Horizontal Rectangle">
+				</div>
+			</div>
+		</section>
+	</div>
+		
+
+			
+
+		
+
+
+
+		<!-- <div id ="featuredblock">
+			<ul id ="featuredproject">
+				<li>Prudential Financial Summer 2017</li>
+				<li> User Research</li>
+				<li> Graphic Design</li>
+				<li>More coming soon!</li>
+			</ul>
+		</div> -->
+<br>
+<br>
+<br>
+<footer>
+	<div id="footerbar">
+		<ul>
+			<li> <a href="https://www.linkedin.com/in/sara-ramaswamy-06a180124/"> <img src = "assets/LinkedInIcon.jpg" alt ="Sara Ramaswamy's LinkedIn Icon"> </a> </li>
+			<li> <a href="https://medium.com/@sararamaswamy"> <img src = "assets/medium.png" alt = "Medium Icon" > </a> </li>
+		</ul>
+	</div>
+</footer>
+</body>
+</html>

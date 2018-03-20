@@ -1,0 +1,208 @@
+* {
+  font-family: San Francisco Display;
+}
+
+
+
+.welcomeblock{
+  top: 2em;
+  background-image: url("../assets/HomeBackground.png");
+  background-repeat: no-repeat;/
+  min-height: 100%px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.welcomeblock h1 {
+	position: block;
+	padding: 4em;
+	text-align: center;
+}
+
+
+.topnav {
+	background-color: white;
+	overflow: hidden;
+}
+
+nav #myTopNav {
+  position: fixed;
+}
+
+
+.processblock img {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+
+.processblock h2 {
+  color: white;
+}
+
+
+.welcomeblock h1 {
+font-family: SF UI Text;
+font-size: 32px;
+}
+
+.top-nav a {
+	display: block;
+  background-color: white;
+  text-decoration: none;
+  padding: 10px;
+  width: 100%;
+	color: grey;
+	text-align: center;
+	padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+	font-size: 18px;
+
+
+}
+
+.top-nav a:hover {
+	color: black;
+  text-decoration-line: none;
+
+}
+
+.active {
+	color: purple;
+}
+
+.top-nav .icon {
+	display: none;
+}
+
+
+
+.masonry {
+    margin: 1.5em 0;  
+    background-color: white;
+    padding: 0;
+    -moz-column-gap: 1.5em;
+    -webkit-column-gap: 1.5em;
+    column-gap: 1.5em;
+    font-size: .25em;
+
+}
+
+#gridtile {
+  height: 60px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  top: 20px;
+  bottom: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.crafts h1 {
+  margin: 2%;
+  top: 0;
+
+}
+
+.main-content-crafts{
+  margin-top: 250px;
+}
+/*photo gallery*/
+.crafts{
+  display: block;
+  margin: auto;
+  max-width: 1200px;
+}
+.photo-cell{
+  margin-bottom: 2%;
+  margin-left: 2%;
+  position: absolute;
+  margin-left: 2%;
+}
+
+.text-block {
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  bottom: 0px;
+
+
+/*  background-color: rgba(141, 141, 139, .75);*/
+  color: white;
+  padding-left: 20px;
+  padding-right;
+  text-align: center;
+  font-size: 18px;
+
+}
+
+.text-block a {
+  text-decoration: none;
+  color: ;
+}
+
+.photo-cell img  {
+  margin: 5px;
+  width: 98%;
+  position: rela;
+    display: block;
+    box-shadow: 0px 0px 10px rgba(141, 141, 139, .75);
+    border-radius: 10px;
+}
+
+.photo-cell img .half {
+  display: inline-block;
+  width: 40%;
+
+}
+
+footer {
+  margin: 50px;
+}
+/*.hamburger{
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.cross{
+  background:none;
+  position:absolute;
+  top:0px;
+  right:0;
+  padding:7px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#f1f1f1;  position:absolute; text-align:center; font-size:12px;}
+.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu ul li a { text-decoration:none;  margin: 0px; color:#666;}
+.menu ul li a:hover {  color: #666; text-decoration:none;}
+.menu a{text-decoration:none; color:#666;}*/
+/*.menu a:hover{text-decoration:none; color:#666;}*/
+
+
+
