@@ -6,42 +6,13 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-<script type="text/javascript">
-	function tryingFunction() {
-		var x = document.getElementById("myTopNav");
-		if (x.className === "top-nav") {
-			x.className += " responsive";
 
-		}
-		else {
-			x.className = "top-nav";
-		}
 
-	}
-
-	window.onscroll = function() {myFunction()};
-
-// Get the navbar
-var navbar = document.getElementById("myTopNav");
-
-// Get the offset position of the navbar
-var sticky = navbar.offsetTop;
-
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-    
-    </script>
 <body>
-	<header>
+<!-- 	<header>
 		<nav class = "top-nav" id="myTopNav">
 			<div class = "logo">
 			<a href = "index.html"> <img src = "assets/NavLogo.jpg" alt = "Sara Ramaswamy navigation logo">
@@ -53,9 +24,21 @@ function myFunction() {
 			<a href="https://www.linkedin.com/in/sara-ramaswamy-06a180124/"> <img src = "assets/LinkedInIcon.jpg"> </a> 
 			<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 		</nav>
-	</header>
+	</header> -->
+	<div class="topnav" id="myTopnav">
+	  <a href="#home"  class="logo"> <img src = "assets/NavLogo.jpg" alt = "Sara Ramaswamy navigation logo"> </a>
+	  <a href="#">About Me</a>
+	  <a href="#">Projects</a>
+	  <a href="#">Writing</a>
+	  <a href="https://www.linkedin.com/in/sara-ramaswamy-06a180124/"> <img src = "assets/LinkedInIcon.jpg"> </a> 
+	  <a href="javascript:void(0);" style="font-size:40px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+	
+
 		<div class = "welcomeblock" id ="MakerSpace">
 			<h1> Welcome to My Maker Space </h1>
+			<br>
 		</div>
 		<div class ="processblock">
 			<img src = "assets/process.png">
@@ -69,7 +52,7 @@ function myFunction() {
 						<a href = "#"> <h4> Prudential </h4> </a>		
 				</div>
 				
-
+<!-- 
 				<div class="photo-cell maroon">
 					<img class="resp-img" src="img/img2.jpg" alt="Maroon Horizontal Rectangle">
 				</div>
@@ -87,7 +70,7 @@ function myFunction() {
 				</div>
 				<div class="photo-cell  red">
 					<img class="resp-img" src="img/img7.jpg" alt="Red Horizontal Rectangle">
-				</div>
+				</div> -->
 			</div>
 		</section>
 	</div>
@@ -118,5 +101,17 @@ function myFunction() {
 		</ul>
 	</div>
 </footer>
+
+<script type = "text/javascript">
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
 </body>
 </html>
