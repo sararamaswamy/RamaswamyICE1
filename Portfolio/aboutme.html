@@ -4,60 +4,84 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>Sara Ramaswamy's Portfolio: About Me</title>
 
 </head>
 <body>
-	<header>
-		<nav id = "top-nav" class = "top-nav">
-			<div class = "logo">
-			<a href = "index.html"> <img src = "assets/NavLogo.jpg" alt = "Sara Ramaswamy navigation logo">
-			</a>
-			</div>
-			<ul>
-				<li>About Me</li>
-				<li>Projects</li>
-				<li>Writing</li>
-				<li> <a href="https://www.linkedin.com/in/sara-ramaswamy-06a180124/"> <img src = "assets/LinkedInIcon.jpg"> </a> </li>
-			</ul>
-		</nav>
-	</header>
-	<img src = "assets/SaraRamaswamy.jpg" id = "saraphoto" alt = "Professional Photo of Sara">
+
+	<nav>
+	<div class="topnav" id="myTopnav">
+	  <a href="/index.html"  class="logo"> <img src = "assets/NavLogo.jpg" alt = "Sara Ramaswamy navigation logo"> </a>
+	  <a href="aboutme.html" id= "nav2" >About Me</a>
+	  <a href="#" id= "nav3" >Projects</a>
+	  <a href="#" id= "nav3" >Writing</a>
+	  <a href="https://www.linkedin.com/in/sara-ramaswamy-06a180124/" id= "nav4"> <img src = "assets/LinkedInIcon.jpg"> </a> 
+	  <a href="javascript:void(0);" style="font-size:30px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+</nav>
+
+<div id = "contentabout">
+
+	<img id = "profile" src = "assets/SaraRamaswamy.jpg" id = "saraphoto" alt = "Professional Photo of Sara">
 	<div id = "main-content">
 		<h1> About me </h1>
-		<p> I get excited about opportunities to be creative. Check out my Journey to UX below or download my <a href = "#" > resume. </p>
+		<p> I get excited about opportunities to be creative and to grow through challenge. Check out my Journey to UX below or download my <a href = "#" > resume. </p>
 	</a>
 	<div id = "journeytoux">
 		<h2> Journey to UX </h2>
-		<h5> <img src = "assets/timeline/1996.png"> Born </h5>
+		<img id = "born" src = "assets/timeline/1996.png">
+			<h5> Born </h5>
+			<br>
+		<div class = "lifeevent">
+			<img src = "assets/timeline/2005.png">
+			<div class = "eventtext">
+				 <h5>Elementary School </h5> I spent free time at school and home making multi-page magazines with markers for hours. Writing classes and after-school HTML elective were my favorites. > <br>
+				 </div>
+		</div>
+			<img src = "assets/timeline/2015.png"> <h5> Interdisciplinary </h5>
+				<p> In college, I enjoyed classes in psychology, communications, and computer science. I had a mission: Find the intersection. </p>
+			<img src = "assets/timeline/2016.png"> <h5> Discovered Digital Design </h5>
+				<p> I took a Digital Design Studio class and I loved engineering user flows, crafting infographics, building wire frames, and blogging about UX on Medium. </p>
+				<br>
+			 <img src = "assets/timeline/2017.png"> <h5> BSI </h5>
+				<p> I declared my major: Bachelor of Science in Information. I got hooked to building data programs and enjoyed helping expand Consider Magazine’s brand in print and digitally as VP. </p>
+				<br>
+			<img src = "assets/timeline/2017.png"><h5>  China </h5>
+				<p> I studied in China with the Ross School of Business at Michigan and observed that the success of new Chinese firms like Alibaba and Tencent depends more on how well their products meet the needs of Chinese users.  </p>
+				<br>
+			<img src = "assets/timeline/2017.png"> <h5> Prudential</h5>
+				<p> I interned as a UX Designer at Prudential Financial, where I worked on five ADA-compliant projects that are live and in production. I helped design the third-place Hack at Prudential’s HackCO and learned sthat I love challenging, fast-paced culture. </p>
+				<br>
+			<img src = "assets/timeline/2017.png"> <h5> Teaching Assistant </h5>
+				<p> I was an SI 506 (graduate-level Programming I) Instructional Aide, honing my technical skills. </p>
+				<br>
+			<img src = "assets/timeline/2018.png"> <h5>  Apple </h5>
+				<p> I will be interning at Apple on the User Experience team in Summer 2018. </p>
 
-		<h5> <img src = "assets/timeline/2005.png"> Elementary School </h5>
-			<p> I spent free time at school and home making multi-page magazines with markers for hours. Writing classes and after-school HTML elective were my favorites. </p>
-		<h5> <img src = "assets/timeline/2015.png"> Interdisciplinary </h5>
-			<p> In college, I enjoyed classes in psychology, communications, and computer science. I had a mission: Find the intersection. </p>
-		<h5> <img src = "assets/timeline/2016.png"> Discovered Digital Design </h5>
-			<p> I took a Digital Design Studio class and I loved engineering user flows, crafting infographics, building wire frames, and blogging about UX on Medium. </p>
-		<h5> <img src = "assets/timeline/2017.png"> BSI </h5>
-			<p> I declared my major: Bachelor of Science in Information. I got hooked to building data programs and enjoyed helping expand Consider Magazine’s brand in print and digitally as VP. </p>
-		<h5> <img src = "assets/timeline/2017.png"> China </h5>
-			<p> I studied in China with the Ross School of Business at Michigan and observed that the success of new Chinese firms like Alibaba and Tencent depends more on how well their products meet the needs of Chinese users.  </p>
-		<h5> <img src = "assets/timeline/2017.png"> Prudential</h5>
-			<p> I interned as a UX Designer at Prudential Financial, where I worked on five ADA-compliant projects that are live and in production. I helped design the third-place Hack at Prudential’s HackCO and learned that I love challenging, fast-paced culture. </p>
-		<h5> <img src = "assets/timeline/2017.png"> Teaching Assistant </h5>
-			<p> I was an SI 506 (graduate-level Programming I) Instructional Aide, honing my technical skills. </p>
-		<h5> <img src = "assets/timeline/2018.png"> Apple </h5>
-			<p> I will be interning at Apple on the User Experience team in Summer 2018. </p>
-	<footer>
-	<div id="footerbar">
-		<ul>
-			<li> <a href="https://www.linkedin.com/in/sara-ramaswamy-06a180124/"> <img src = "assets/LinkedInIcon.jpg" alt ="Sara Ramaswamy's LinkedIn Icon"> </a> </li>
-			<li> <a href="https://medium.com/@sararamaswamy"> <img src = "assets/mediumlogo.png" alt = "Medium Icon" > </a> </li>
-		</ul>
-	</div>
-	</footer>
+			<br>
+			<br>
 
+</div>
 
+<footer>
+		<a href="https://www.linkedin.com/in/sara-ramaswamy-06a180124/"> <img src = "assets/LinkedInIcon.jpg" alt ="Sara Ramaswamy's LinkedIn Icon"> </a>  
+		 <a href="https://medium.com/@sararamaswamy"> <img src = "assets/medium.png" id="mediumicon" alt = "Medium Icon" > </a>
+		
+</footer>
 
+<script type = "text/javascript">
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
 
 
 	

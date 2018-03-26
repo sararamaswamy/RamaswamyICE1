@@ -1,5 +1,9 @@
-* {
-  font-family: San Francisco Display;
+html, body{
+  font-family: Minion Pro Regular;
+  height: 100%;
+  box-sizing: border-box;
+  position: relative;
+
 }
 
 
@@ -22,11 +26,13 @@
 
 
 
+
 .processblock img {
 	display: inline-block;
 	width: 100%;
 	text-align: center;
 	text-decoration: none;
+  margin-bottom: 50px;
 }
 
 .logo {
@@ -39,7 +45,7 @@
 
 
 .welcomeblock h1 {
-font-family: Futura;
+font-family: San Francisco Text;
 font-size: 42px;
 }
 
@@ -52,12 +58,12 @@ font-size: 42px;
 .topnav a.icon {
     float: right;
     display: block;
-    color: black;
+    color: grey;
 
   }
 
   .topnav a.icon:focus {
-    color: grey;
+    color: black;
 
   }
 
@@ -97,8 +103,9 @@ font-size: 42px;
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #ddd;
+/*    background-color: ;*/
     color: black;
+    text-decoration: none;
 }
 
 /* Add an active class to highlight the current page */
@@ -115,27 +122,28 @@ font-size: 42px;
 
 
 
-.masonry {
-    margin: 1.5em 0;  
-    background-color: white;
-    padding: 0;
-    -moz-column-gap: 1.5em;
-    -webkit-column-gap: 1.5em;
-    column-gap: 1.5em;
-    font-size: .25em;
 
-}
 
-#gridtile {
-  height: 60px;
-  box-sizing: border-box;
-  border: 2px solid black;
-  top: 20px;
-  bottom: 40px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+
+/*.text-block {
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  bottom: 0px;
+
+
+  background-color: rgba(141, 141, 139, .75);
+  color: white;
+  padding-left: 20px;
+  padding-right;
   text-align: center;
-}
+  font-size: 18px;
+
+}*/
+
+/*#content {
+  display: inline-block;
+}*/
 
 .crafts h1 {
   margin: 2%;
@@ -143,36 +151,29 @@ font-size: 42px;
 
 }
 
-.main-content-crafts{
-  margin-top: 250px;
+.crafts {
+  margin: auto;
+  padding-right: 3%;
+  padding-left: 3%;
 }
+
+
+/*.main-content-crafts{
+  margin-top: 250px;
+}*/
 /*photo gallery*/
 .crafts{
-  display: block;
+ /* display: block;*/
   margin: auto;
   max-width: 1200px;
 }
-.photo-cell{
+.photo-cell {
   margin-bottom: 2%;
+  display: inline-block;
   margin-left: 2%;
-  position: absolute;
+  position: relative;
   margin-left: 2%;
-}
-
-.text-block {
-  position: absolute;
-  z-index: 100;
-  width: 100%;
-  bottom: 0px;
-
-
-/*  background-color: rgba(141, 141, 139, .75);*/
-  color: white;
-  padding-left: 20px;
-  padding-right;
-  text-align: center;
-  font-size: 18px;
-
+  margin-right: 2%;
 }
 
 .text-block:hover {
@@ -185,70 +186,191 @@ text-underline-position: none;
   color: ;
 }
 
-.photo-cell img  {
+.photo-cell img {
   margin: 5px;
   width: 98%;
-  position: rela;
-    display: block;
-    box-shadow: 0px 0px 10px rgba(141, 141, 139, .75);
-    border-radius: 10px;
+  position: relative;
+  display: inline-block;
+  box-shadow: 0px 0px 10px rgba(141, 141, 139, .75);
+
 }
 
-.photo-cell img .half {
+/*.photo-cell img .half {
   display: inline-block;
   width: 40%;
 
+}*/
+.photo-cell h2 {
+  color: black;
+  text-align: center;
+  font-size: 20px;
 }
 
-footer {
-  margin: 50px;
+.photo-cell h4 {
+  color: black;
+  text-align: center;
+  font-size: 15px;
 }
 
+.footerspace {
+  height: 20px;
+}
+
+#footer {
+
+  /*border: 1px solid black;*/
+  background-color: white;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-top:10px;
+  padding-bottom:10px;
+  position: relative;
+
+}
+
+#mediumicon {
+  height: 60px;
+  padding-left: 20px;
+}
+
+#linkedinfooter {
+  padding-left: 20px;
+}
 
 /*new css */
 
 
+/*About Me Page Begins*/
 
-
-
-/*.hamburger{
-  background:none;
-  position:absolute;
-  top:0;
-  right:0;
-  line-height:45px;
-  padding:5px 15px 0px 15px;
-  color:#999;
-  border:0;
-  font-size:1.4em;
-  font-weight:bold;
-  cursor:pointer;
-  outline:none;
-  z-index:10000000000000;
+#profile {
+  height: 150px;
 }
-.cross{
-  background:none;
-  position:absolute;
-  top:0px;
-  right:0;
-  padding:7px 15px 0px 15px;
-  color:#999;
-  border:0;
-  font-size:3em;
-  line-height:65px;
-  font-weight:bold;
-  cursor:pointer;
-  outline:none;
-  z-index:10000000000000;
+
+#journeytoux {
+  margin-left
 }
-.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#f1f1f1;  position:absolute; text-align:center; font-size:12px;}
-.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
-.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
-.menu li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
-.menu ul li a { text-decoration:none;  margin: 0px; color:#666;}
-.menu ul li a:hover {  color: #666; text-decoration:none;}
-.menu a{text-decoration:none; color:#666;}*/
-/*.menu a:hover{text-decoration:none; color:#666;}*/
+
+#journeytoux img {
+  height: 90px;
+}
+
+#born h5 {
+  text-align: center;
+}
+
+#contentabout {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+
+/*.projects {
+  display: inline-grid;
+
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+  grid-template-rows: 1fr 4fr 1fr;
+
+  background-color: #fff;
+
+  color: #444;
+
+}
+
+.box {
+  background-color: #444;
+  border: 3px solid black;
+  color: #fff;
+/*   border-radius: 5px; */
+/*  padding: 20px;
+
+
+/*.a {
+    background-color: green;*/
+/*     grid-column-start: 1;
+    grid-column-end: 4; */
+/*    grid-column: 2/6;
+*/
+/*     column means horizontal and row means vertical */
+/*}
+
+.b{
+    background-color: yellow;
+    grid-column: 
+
+
+
+}*/
+
+
+/*Corporate Site Styles*/
+
+
+
+.projectheader {
+  background-color: #002461;
+  color: white;
+  height: 12em;
+  margin: 2%;
+
+}
+
+.projecteyebrow {
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+.ProjectTitle {
+  font-size: 3em;
+  padding-left: 10px;
+
+}
+
+.project-content img {
+  width: 100%;
+}
+
+#project-nav {
+  left: 0px;
+
+}
+
+#project-nav ul {
+  list-style: none;
+  text-align: left;
+  padding-left: 10px;
+
+
+}
+
+
+#project-nav ul li a {
+  list-style: none;
+  display: block;
+  color: grey;
+  height: 30px;
+  padding-top: 15px;
+  margin: 15px;
+
+
+  
+}
+
+
+
+.project-content {
+
+  margin: 2%;
+}
+
+
+#researchandstrategy h4
+
+
+
+
 
 
 
