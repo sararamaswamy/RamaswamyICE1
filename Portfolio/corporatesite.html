@@ -19,10 +19,11 @@
 		<div id = "header">
 			<nav>
 			<div class="topnav" id="myTopnav">
-			  <a href="index.html"  class="logo"> <img src = "assets/NavLogo.jpg" alt = "Sara Ramaswamy navigation logo"> </a>
-			  <a href="/aboutme.html" id= "nav2" >About Me</a>
-			  <a href="#" id= "nav3" >Projects</a>
-			  <a href="#" id= "nav3" >Writing</a>
+			  <a href="./index.html"  class="logo"> <img src = "assets/NavLogo.jpg" alt = "Sara Ramaswamy navigation logo"> </a>
+			  <a href="./aboutme.html" id= "nav2" >About Me</a>
+			  <a href="./Projects.html" id= "nav3" >Projects</a>
+			  <a href="https://medium.com/@sararamaswamy" id= "nav3" >Writing</a>
+			  <a href="./Contact.html" id= "nav3" > Contact</a>
 			  <a href="https://www.linkedin.com/in/sara-ramaswamy-06a180124/" id= "nav4"> <img src = "assets/LinkedInIcon.jpg"> </a> 
 			  <a href="javascript:void(0);" style="font-size:30px;" class="icon" onclick="myFunction()">&#9776;</a>
 			</div>
@@ -40,7 +41,9 @@
 		</div>
 
 </div>
-	<div class = "ProjectNav">
+<div class="row">
+
+	<div class = "ProjectNav col-sm-12 col-md-3">
 		<nav id="project-nav" class= "project-nav">
 			<ul>
 				<li> <a href="#problemandconstraints"> The Problem and Constraints </a> </li>
@@ -52,7 +55,8 @@
 			</ul>
 		</nav>
 	</div>
-	<div class = "project-content">
+
+	<div class = "project-content col-md-9">
 		<h2 id= "problemandconstraints"> The Problem and Constraints</h2>
 			<p> I migrated 36 pages of content off of Prudential’s former Content Management System to its new one. The content needed to align with the 12-column CSS bootstrap grid. 
 			My deadline for this project was September 1. Given the tight deadline, there were no allocated development resources. I designed the pages to be ADA AA-level compliant. On this page, I was tasked with moving and combining content from inside a flash element and text content from below the flash element. I did a dramatic re-design for accessibility violations reasons first and foremost. To solve for accessibility violations, I wrote descriptive headings to summarized small chunks of content and floated the year labels into eyebrows; therefore, a user could scan headings by year or event.</p> 
@@ -61,40 +65,93 @@
 			<h3> Crafting a User Statement with Empathy </h3>
 			<p> <i> "As a user of the firm’s corporate site, I want to be able to scan and easily digest page content with ease and in such a way that I can parse through the information with ease." </i> </p>
 			<h3> The Solution </h3>
+		<div class = "row">
+			<div class = "portfoliopoints col-md-3">
 			<h4> Research </h4>
 				<p> Based on data, thousands of users visit this page annually.  I found the essence of the firm’s narrative by listening to speeches given by its leader and from conversations with my manager and fellow employees about its history. No event in its history could be given more visual importance than another. </p>
-			<h4> Consider Constraints </h4>
+				</div>
+			<div class = "portfoliopoints col-md-3">
+			<h4> Suit Constraints </h4>
 				<p> No development resources </p>
 				<p> Accessibility violation: there cannot be two headings with the same name. For example, there are two headings labeled “1976” for different content. This violation recurs in various decades. </p>
+				</div>
+			<div class = "portfoliopoints col-md-2">
+				<h4> Secure </h4>
 				<p> Security issue: there can no longer be an interactive flash element containing 50% of the content on the page. </p> 
-			<h4> Strategy for Unified Experience </h4>
+			</div>
+			<div class = "portfoliopoints col-md-3">
+			<h4>Experience Unity </h4>
 				<p> There was a lot of overlap in the information presented in the flash element and the text, so I decided to streamline the information into a single narrative by organizing the information according to decade. </p>
-		<h2  id = "Wireframes"> </h2>
-			<h3> Initial wires: Whiteboarding </h3>
-				<p class = "yellow"> In initial whiteboarding, I created decade divisions with full-width heroes that present a key event from the decade to give the user context. I thought I could solve for the accessibility issues with visual treatment, so I let the date headings alone in this phase.</p>
+			</div>
+		</div>
+		<div class = "row">
+			<div class = "wiretitle col-md-6">
+			<h2  id = "Wireframes"> </h2>
+				<h3> Initial Wireframes: Whiteboarding to Digital </h3>
+					<p class = "yellow"> In initial whiteboarding, I created decade divisions with full-width heroes that present a key event from the decade to give the user context. I thought I could solve for the accessibility issues with visual treatment, so I let the date headings alone in this phase.</p>
+			</div>
+			<div class = "wirepic col-md-6">
+
 				<img src = "assets/whiteboardinghistorypage.jpg" class = "blue" alt = "Initial Whiteboarding"> 
+			</div>
+		</div> <!-- row -->
+		<div class = "row">
+			<div class = "col-md-6">
 				<img src = "assets/prudential/historywire1.png" alt = "Decade 1870s shown">
+			</div>
+			<div class = "col-md-6">
 				<img src = "assets/prudential/historywire2.png" alt = "Decade 1890s shown">
+			</div>
+		</div>
+		<div class = "row">
+			<div class = "col-md-6">
 			<h3> The Hardest Constraint: No Development Resources </h3>
 				<p> This page becomes a very long scroll on mobile and desktop, which is why I would have liked to be able to collapse the decades as shown, if I’d had development resources allocated to me on this project. This would have given the user a better overall sense of the length of the firm’s history and given them more agency to explore as desired. </p>
+			</div>
+			<div class = "col-md-6">
 				<img src = "assets/prudential/historywire3.jpg" alt = "Collapsed Decades">
+			</div>
+		</div> <!-- row -->
+		<div class = "row">
+			<div class = "col-md-6">
 			<h3 id = "visualdesign"> Visual Design </h3>
 				<p> Images and styles reflect the wires closely and take on timeline characteristics. </p>
+			</div>
+			<div class = "col-md-6">
 				<img src = "assets/prudential/historywire4.png" alt = "Visual Design Example">
 				<img src = "assets/prudential/historywire6.png" alt = "Visual Design Example 2">
-		<h2 id = "impact"> </h2>
-			<br>
+			</div>
+		</div> <!-- row -->
+		<div class = "row">
+			<div class = "col-md-12">
+				<h2> Impact </h2>
+				<br>
+			</div>
+			<div class = "col-md-12">
 			<p> I helped Prudential save money by helping it transition off of its current Content Management System before the deadline. I was happy to be trusted with the job. I received positive feedback afterward for not only migrating content but improving the user experiences on the pages.  </p>
+			</div>
+		</div> <!-- row -->
 	</div>
-	<!-- <footer>
-	<div id="footerbar">
-		<ul>
-			<li> <a href="https://www.linkedin.com/in/sara-ramaswamy-06a180124/"> <img src = "assets/LinkedInIcon.jpg" alt ="Sara Ramaswamy's LinkedIn Icon"> </a> </li>
-			<li> <a href="https://medium.com/@sararamaswamy"> <img src = "assets/mediumlogo.png" alt = "Medium Icon" > </a> </li>
-		</ul>
+	</div>  <!-- Row -->
+	<div id ="footer">
+
+
+
+		<footer>
+				<a href="https://www.linkedin.com/in/sara-ramaswamy-06a180124/"> <img src = "assets/LinkedInIcon.jpg" id = "linkedinfooter" alt ="Sara Ramaswamy's LinkedIn Icon"> </a>  
+				 <a href="https://medium.com/@sararamaswamy"> <img src = "assets/medium.png" id="mediumicon" alt = "Medium Icon" > </a>	
+		</footer>
 	</div>
-</footer> -->
-</body>
+<script type = "text/javascript">
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
 
 
 </body>

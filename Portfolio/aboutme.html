@@ -14,10 +14,11 @@
 
 	<nav>
 	<div class="topnav" id="myTopnav">
-	  <a href="/index.html"  class="logo"> <img src = "assets/NavLogo.jpg" alt = "Sara Ramaswamy navigation logo"> </a>
+	  <a href="./index.html"  class="logo"> <img src = "assets/NavLogo.jpg" alt = "Sara Ramaswamy navigation logo"> </a>
 	  <a href="aboutme.html" id= "nav2" >About Me</a>
-	  <a href="#" id= "nav3" >Projects</a>
-	  <a href="#" id= "nav3" >Writing</a>
+	  <a href="./Projects.html" id= "nav3" >Projects</a>
+	  <a href="https://medium.com/@sararamaswamy" id= "nav3" >Writing</a>
+	  <a href="./Contact.html" id= "nav3" >Contact</a>
 	  <a href="https://www.linkedin.com/in/sara-ramaswamy-06a180124/" id= "nav4"> <img src = "assets/LinkedInIcon.jpg"> </a> 
 	  <a href="javascript:void(0);" style="font-size:30px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
@@ -25,21 +26,26 @@
 
 <div id = "contentabout">
 
-	<img id = "profile" src = "assets/SaraRamaswamy.jpg" id = "saraphoto" alt = "Professional Photo of Sara">
-	<div id = "main-content">
-		<h1> About me </h1>
-		<p> I get excited about opportunities to be creative and to grow through challenge. Check out my Journey to UX below or download my <a href = "#" > resume. </p>
-	</a>
-	<div id = "journeytoux">
-		<h2> Journey to UX </h2>
-		<img id = "born" src = "assets/timeline/1996.png">
-			<h5> Born </h5>
-			<br>
-		<div class = "lifeevent">
-			<img src = "assets/timeline/2005.png">
-			<div class = "eventtext">
-				 <h5>Elementary School </h5> I spent free time at school and home making multi-page magazines with markers for hours. Writing classes and after-school HTML elective were my favorites. > <br>
-				 </div>
+<div class="row">
+
+	<div class = "sara col-sm-2"> 
+		<img id = "profile" src = "assets/SaraRamaswamy.jpg" id = "saraphoto" alt = "Professional Photo of Sara"> </div>
+	
+		<div id = "main-content">
+			<h1> About me </h1>
+			<p> I get excited about opportunities to be creative and to grow through challenge. Check out my Journey to UX below or download my <a href = "#" > resume. </p>
+		</a>
+		<div class = "journey col-sm-9" id = "journeytoux">
+			<h2> Journey to UX </h2>
+			<img id = "born" src = "assets/timeline/1996.png">
+				<h5> Born </h5>
+				<br>
+			<div class = "lifeevent">
+				<img src = "assets/timeline/2005.png">
+				<div class = "eventtext">
+					 <h5>Elementary School </h5> I spent free time at school and home making multi-page magazines with markers for hours. Writing classes and after-school HTML elective were my favorites. > <br>
+					 </div>
+
 		</div>
 			<img src = "assets/timeline/2015.png"> <h5> Interdisciplinary </h5>
 				<p> In college, I enjoyed classes in psychology, communications, and computer science. I had a mission: Find the intersection. </p>
@@ -60,17 +66,22 @@
 				<br>
 			<img src = "assets/timeline/2018.png"> <h5>  Apple </h5>
 				<p> I will be interning at Apple on the User Experience team in Summer 2018. </p>
-
-			<br>
-			<br>
-
+			</div>
+		</p>
+	</div>
 </div>
 
-<footer>
-		<a href="https://www.linkedin.com/in/sara-ramaswamy-06a180124/"> <img src = "assets/LinkedInIcon.jpg" alt ="Sara Ramaswamy's LinkedIn Icon"> </a>  
-		 <a href="https://medium.com/@sararamaswamy"> <img src = "assets/medium.png" id="mediumicon" alt = "Medium Icon" > </a>
-		
-</footer>
+	
+
+<div id ="footer">
+
+
+
+		<footer>
+				<a href="https://www.linkedin.com/in/sara-ramaswamy-06a180124/"> <img src = "assets/LinkedInIcon.jpg" id = "linkedinfooter" alt ="Sara Ramaswamy's LinkedIn Icon"> </a>  
+				 <a href="https://medium.com/@sararamaswamy"> <img src = "assets/medium.png" id="mediumicon" alt = "Medium Icon" > </a>	
+		</footer>
+	</div>
 
 <script type = "text/javascript">
 function myFunction() {
