@@ -53,7 +53,7 @@
 				<br>
 				<div class="photo-grid">
 					<div class="photo-cell tile1"> 
-						<a href = "./corporatesite.html"> <img class="resp-img" src="assets/prudentialcover.jpg" alt="Black Horizontal Rectangle"> </a>
+						<a href = "./corporatesite.html"> <img class="resp-img" id = "titlecover" src="assets/prudentialcover.jpg" alt="Black Horizontal Rectangle"> </a>
 						<div class = "text-block"> <a href = "./corporatesite.html"> </a> </div>
 						<h2> Prudential Financial UX Design </h2>
 						
@@ -93,15 +93,24 @@ function myFunction() {
     }
 }
 
+function update(previewPic) {
+		var alttext = previewPic.getAttribute("alt");
+		var actualimage = previewPic.getAttribute("src");
+
+		document.getElementById("image").style.backgroundImage = "url('"+actualimage+"')";
+		document.getElementById("image").innerHTML = alttext;
+
+	}
+
+	function undo(){
+
+		document.getElementById("image").style.backgroundImage = "none";
+		document.getElementById("image").innerHTML = "Hover over an image below.";
+
+	}
+
 </script>
 
-<script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"> </script>
-<script src='js/main.js'>
-	
-</script> 
 
 </body>
 </html>
