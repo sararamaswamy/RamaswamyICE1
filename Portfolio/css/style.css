@@ -88,7 +88,7 @@ font-size: 42px;
     float: none;
     display: block;
     text-align: center;
-    color:;
+    /*color: ;*/
   }
 
 
@@ -105,7 +105,7 @@ font-size: 42px;
 .topnav a {
   float: left;
     display: block;
-    color: grey;
+    color: #5a5757;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -134,7 +134,15 @@ font-size: 42px;
 
 
 
+.topnav #currentpage {
 
+  color: black;
+  text-decoration: underline;
+}
+
+.topnav.responsive a #currentpage {
+  color:black;
+}
 
 
 /*.text-block {
