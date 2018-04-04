@@ -60,6 +60,7 @@ font-size: 42px;
 
 .topnav a:not(:first-child) {
   display: none;
+  text-align: right;
 }
 
 .topnav a.icon {
@@ -168,7 +169,17 @@ font-size: 42px;
 .crafts h1 {
   margin: 2%;
   top: 0;
+  padding-bottom: 20px;
 
+
+}
+
+.crafts h2 {
+  font-size: 20px;
+}
+
+.crafts h3 {
+  font-size: 15px;
 }
 
 .crafts {
@@ -187,6 +198,12 @@ font-size: 42px;
   margin: auto;
   max-width: 1200px;
 }
+
+.crafts .row {
+  margin: 1%;
+  text-align: center;
+}
+
 .photo-cell {
   margin-bottom: 2%;
   display: inline-block;
@@ -194,6 +211,10 @@ font-size: 42px;
   position: relative;
   margin-left: 2%;
   margin-right: 2%;
+}
+
+#main-content {
+  margin-left: 20px;
 }
 
 .text-block:hover {
@@ -236,7 +257,21 @@ text-underline-position: none;
   height: 20px;
 }
 
-#footer {
+#footer1 {
+
+  /*border: 1px solid black;*/
+  background-color: white;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  left: 50px;
+  padding-top:10px;
+  padding-bottom:10px;
+  position: relative;
+
+}
+
+#footer2 {
 
   /*border: 1px solid black;*/
   background-color: white;
@@ -245,7 +280,7 @@ text-underline-position: none;
   text-align: center;
   padding-top:10px;
   padding-bottom:10px;
-  position: relative;
+  position: absolute;
 
 }
 
