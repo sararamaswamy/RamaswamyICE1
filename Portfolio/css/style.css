@@ -263,6 +263,7 @@ text-underline-position: none;
   background-color: white;
   bottom: 0;
   width: 100%;
+  margin: auto;
   text-align: center;
   left: 50px;
   padding-top:10px;
