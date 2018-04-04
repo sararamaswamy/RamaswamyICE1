@@ -71,6 +71,19 @@
 	margin: 5px;
 	}
 
+	/*#profile {
+		position: absolute;
+		position: fixed;
+
+	}
+
+	.main-content {
+		position: absolute;
+		left: 200px;
+	}*/
+
+
+
 /*
 	#project-nav ul {
   	list-style: none;
@@ -108,6 +121,8 @@
 
 	.topnav a:not(:first-child) {
   		display: inline;
+  		
+
 	}
 
 	.topnav a.icon {
@@ -127,7 +142,7 @@
 		display: hidden;
 	}
 
-	
+
 
 
 
@@ -143,6 +158,8 @@
   	margin-top: 9%;
 
 	}
+
+
 
 
 
