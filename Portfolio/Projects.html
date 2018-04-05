@@ -1,98 +1,66 @@
-<!DOCTYPE html>	
+<!DOCTYPE html>
 <html lang="en">
 <head>
-	<title> Sara Ramaswamy's Portfolio </title>
+	<title>Sara Ramaswamy's Portfolio</title>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/responsive.css">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="icon" 
-      type="image/png" 
-      href="assets/favicon.png">
-	<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="css/responsive.css" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="assets/favicon.png" rel="icon" type="image/png"><!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
-
-
-
 <body>
-<header>
-	<div id = "wrapper">
-
-	
-		<div id = "header">
-			<nav>
-			<div class="topnav" id="myTopnav">
-			  <a href="./index.html"  class="logo"> <img src = "assets/NavLogo.png" alt = "Sara Ramaswamy navigation logo"> </a>
-			  <a href="./aboutme.html" id= "nav2" >About Me</a>
-			  <a href="./Projects.html" id= "currentpage" >Projects</a>
-			  <a href="https://medium.com/@sararamaswamy id= "nav4" >Writing</a>
-			  <a href="./Contact.html" id= "nav5" > Contact</a>
-			  <a href="https://www.linkedin.com/in/sara-ramaswamy-06a180124/" id= "nav6"> <img src = "assets/LinkedInIcon.jpg" alt="LinkedInIcon"> </a> 
-			  <a href="javascript:void(0);" style="font-size:30px;" class="icon" onclick="hamburger()">&#9776;</a>
+	<header>
+		<div id="wrapper">
+			<div id="header">
+				<nav>
+					<div class="topnav" id="myTopnav">
+						<a class="logo" href="./index.html"><img alt="Sara Ramaswamy navigation logo" src="assets/NavLogo.png"></a> <a href="./aboutme.html" id="nav2">About Me</a> <a href="./Projects.html" id="currentpage">Projects</a> <a href="https://medium.com/@sararamaswamy%20id=">Writing</a> <a href="./Contact.html" id="nav5">Contact</a> <a href="https://www.linkedin.com/in/sara-ramaswamy-06a180124/" id="nav6"><img alt="LinkedInIcon" src="assets/LinkedInIcon.jpg"></a> <a class="icon" href="javascript:void(0);" onclick="hamburger()" style="font-size:30px;">&#9776;</a>
+					</div>
+				</nav>
 			</div>
-			</nav>
+		</div>
+	</header>
+	<div id="content-pru">
+		<!-- <div class = "welcomeblock" id ="MakerSpace">
+                <h1> Welcome to My Maker Space </h1>
+                <br>
+        
+                
+            </div> -->
+		<!-- <div class ="processblock">
+                <img src = "assets/process.png">
+            </div> -->
+		<section class="crafts">
+			<h1>All Projects</h1>
+			<div class="row">
+				<div class="project-content col-sm-6 col-md-4">
+					<img alt="Prudential Project" class="image-container" data-hover="../Portfolio/assets/bluebackground.png" id="pru-content" src="assets/prudentialcover.jpg">
+					<h2><a href="./corporatesite.html">Prudential Financial UX Design</a></h2>
+					<h3>Summer 2017 | New York/New Jersey</h3>
+				</div>
+				<div class="project-content col-sm-6 col-md-4">
+					<img alt="More coming soon" src="assets/comingsoon.png">
+					<h2>Check back soon for more projects</h2>
+					<h3>2018 | San Francisco</h3>
+				</div>
+				<div class="project-content col-sm-6 col-md-4">
+					<img alt="Even more coming soon" src="assets/comingsoon2.png">
+					<h2>Check back soon for more projects</h2>
+					<h3>2018 | San Francisco</h3>
+				</div>
+			</div>
+		</section>
+		<div id="footer2">
+			<footer>
+				<a href="https://www.linkedin.com/in/sara-ramaswamy-06a180124/"><img alt="Sara Ramaswamy's LinkedIn Icon" id="linkedinfooter" src="assets/LinkedInIcon.jpg"></a> <a href="https://medium.com/@sararamaswamy"><img alt="Medium Icon" id="mediumicon" src="assets/medium.png"></a> <a href="https://github.com/sararamaswamy"><img alt="github Icon" id="githubicon" src="assets/githubicon.png"></a>
+			</footer>
 		</div>
 	</div>
-</header>
-
-	<div id = "content-pru">
-
-			<!-- <div class = "welcomeblock" id ="MakerSpace">
-				<h1> Welcome to My Maker Space </h1>
-				<br>
-		
-				
-			</div> -->
-			<!-- <div class ="processblock">
-				<img src = "assets/process.png">
-			</div> -->
-		<section class="crafts">
-			<h1> All Projects</h1>
-		 	<div class = "row">
-		 		<div class = "project-content col-sm-6 col-md-4">
-			 		<img src = "assets/prudentialcover.jpg" alt = "Prudential Project" id = "pru-content" class = "image-container" data-hover="../Portfolio/assets/bluebackground.png">
-
-			 		<h2> <a href = "./corporatesite.html"> Prudential Financial UX Design  </a> </h2>
-			 		<h3> Summer 2017 | New York/New Jersey </h3>
-		 		</div>
-		 		<div class = "project-content col-sm-6 col-md-4">
-			 		<img src = "assets/comingsoon.png" alt = "More coming soon">
-			 		<h2> Check back soon for more projects </h2>
-			 		<h3> 2018 | San Francisco </h3>
-		 		</div>
-		 		<div class = "project-content col-sm-6 col-md-4">
-			 		<img src = "assets/comingsoon2.png" alt = "Even more coming soon">
-			 		<h2> Check back soon for more projects </h2>
-			 		<h3> 2018 | San Francisco </h3>
-		 </div>
-		 	</div>
-		 </section>
-
-
-	<div id ="footer2">
-
-
-
-		<footer>
-				<a href="https://www.linkedin.com/in/sara-ramaswamy-06a180124/"> <img src = "assets/LinkedInIcon.jpg" id = "linkedinfooter" alt ="Sara Ramaswamy's LinkedIn Icon"> </a> 
-				 <a href="https://medium.com/@sararamaswamy"> <img src = "assets/medium.png" id="mediumicon" alt = "Medium Icon" > </a>	
-				 <a href="https://github.com/sararamaswamy"> <img src = "assets/githubicon.png" id="githubicon" alt = "github Icon" > </a>
-		</footer>
-	</div>
-</div>
-
-<script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous">
-
-  </script>
-
-<script type="text/javascript" src="js/main.js">
-  	
- </script>
-
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js">
+	</script> 
+	<script src="js/main.js" type="text/javascript">
+	</script>
 </body>
 </html>
