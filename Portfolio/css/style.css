@@ -290,9 +290,9 @@ text-underline-position: none;
   bottom: 0;
   width: 100%;
   text-align: center;
-  padding-top:10px;
-  padding-bottom:10px;
-  position: absolute;
+/*  padding-top:10px;
+  padding-bottom:10px;*/
+  position: fixed;
 
 }
 
