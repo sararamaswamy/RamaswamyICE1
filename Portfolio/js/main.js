@@ -181,6 +181,7 @@ function hamburger() {
     var mynav = document.getElementById("myTopnav");
     if (mynav.className === "topnav") {
         mynav.className += " responsive";
+        // ## akin to addClass
     } else {
         mynav.className = "topnav";
     }
