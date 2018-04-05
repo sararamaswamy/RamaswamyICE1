@@ -28,13 +28,13 @@
 
 	.topnav a:not(:first-child) {
   		display: inline;
-  		padding-top: 45px;
+  		padding-top: 65px;
 
 	}
 
 
 	.topnav a:nth-child(6) {
-		padding-top: 30px;
+		padding-top: 45px;
 		padding-bottom: 5px;
 	}
 

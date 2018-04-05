@@ -64,6 +64,8 @@ font-size: 42px;
 .topnav a:not(:first-child) {
   display: none;
   text-align: right;
+  bottom: 0
+  ;
 }
 
 .topnav a.icon {
@@ -115,6 +117,7 @@ font-size: 42px;
     text-decoration: none;
     font-size: 17px;
     background-color: white;
+    bottom: 0;
 }
 
 /* Change the color of links on hover */
@@ -169,8 +172,9 @@ font-size: 42px;
   display: inline-block;
 }*/
 
-.crafts h1 {
+#project-title {
   margin: 2%;
+  font-size: 30px;
   top: 0;
   padding-bottom: 20px;
 
