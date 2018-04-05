@@ -474,6 +474,11 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 
 /*Animation*/
 
+.hideme
+{
+    opacity:0;
+}
+
 
 
 
