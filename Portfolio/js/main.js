@@ -162,29 +162,6 @@ $(document).ready(() => {
     });
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	// $(".image-container").on('blur mouseleave', function () {
 	// 	$(this).attr('src', $(this).data("src"));
 
@@ -200,8 +177,7 @@ $(document).ready(() => {
  })
 
 
-
-function myFunction() {
+function hamburger() {
     var mynav = document.getElementById("myTopnav");
     if (mynav.className === "topnav") {
         mynav.className += " responsive";

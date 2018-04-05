@@ -8,7 +8,14 @@ html, body{
 }
 
 
+#contentabout {
+  margin-top: 120px;
+}
 
+
+.aboutme {
+  margin-left: 10px;
+}
 .welcomeblock{
   top: 3em;
   background-image: url("../assets/HomeBackground.png");
@@ -102,8 +109,6 @@ font-size: 42px;
     background-color: white;
     overflow: hidden;
 
-
-
 }
 
 
@@ -181,6 +186,10 @@ font-size: 42px;
 
 }
 
+section.crafts {
+
+  margin-top: 120px;
+}
 .crafts h2 a{
   font-size: 20px;
   color: black;
@@ -205,9 +214,10 @@ font-size: 42px;
 }
 
 .crafts {
-  margin: auto;
   padding-right: 3%;
   padding-left: 3%;
+  max-width: 1200px;
+  margin-top: 50px;
 }
 
 
@@ -215,11 +225,7 @@ font-size: 42px;
   margin-top: 250px;
 }*/
 /*photo gallery*/
-.crafts{
- /* display: block;*/
-  margin: auto;
-  max-width: 1200px;
-}
+
 
 .crafts .row {
   margin: 1%;
@@ -323,6 +329,7 @@ text-underline-position: none;
 
 #profile {
   height: 150px;
+  margin-right: 20px;
 }
 
 #journeytoux {
@@ -392,7 +399,7 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   color: white;
   margin: auto;
   height: 12em;
-  margin-top: 100px;
+  margin-top: 150px;
 
 }
 
@@ -411,6 +418,7 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 .project-content img {
   width: 100%;
 }
+
 
 #project-nav {
   left: 0px;
@@ -455,7 +463,9 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 
-
+.contact #contentabout {
+  margin-top: 100;
+}
 
 /*Content PAge */
 
@@ -477,6 +487,10 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 .hideme
 {
     opacity:0;
+}
+
+#mainpagecraft {
+  margin-top: 20px;
 }
 
 

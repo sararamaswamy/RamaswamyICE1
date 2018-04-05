@@ -1,6 +1,18 @@
 
 /*HOME PAGE*/
 
+
+
+@media only screen and (max-width: 800px) {
+
+	.project-content  {
+		margin-left: 10px;
+	}
+
+	
+
+}
+
 @media only screen and (min-width: 650px) {
 
 	.nav {
@@ -153,12 +165,12 @@
 		float: right;
 	}
 
-	.projectheader {
+	/*.projectheader {
 
   	margin-top: 9%;
 
 	}
-
+*/
 
 
 
