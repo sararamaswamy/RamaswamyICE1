@@ -1,88 +1,62 @@
-
 /*HOME PAGE*/
 
-
-
 @media only screen and (max-width: 800px) {
-
-	.project-content  {
+	.project-content {
 		margin-left: 10px;
 	}
-
-	
-
 }
-
 @media only screen and (min-width: 650px) {
-
 	.nav {
 		padding-left: 50px;
 		padding-right: 50px;
 		position: fixed;
-;
+		;
 	}
-
 	.topnav {
 		text-align: center;
 	}
-
-	.topnav a  {
+	.topnav a {
 		display: block;
 		color: grey;
 		color: grey;
 		bottom: 0;
-	    text-align: center;
-	    /*padding: 14px 16px;*/
-	    text-decoration: none;
-	    font-size: 17px;
-
+		text-align: center;
+		/*padding: 14px 16px;*/
+		text-decoration: none;
+		font-size: 17px;
 	}
-
 	.topnav a:not(:first-child) {
-  		display: inline;
-  		padding-top: 65px;
-
+		display: inline;
+		padding-top: 65px;
 	}
-
-
 	.topnav a:nth-child(6) {
 		padding-top: 45px;
 		padding-bottom: 5px;
 	}
-
 	.topnav a.icon {
 		display: none;
 	}
-
-
-
 	.tile1 {
-	display: inline-block;
-	width: 46%;
-	text-align: left;
-	margin: 5px;
-
+		display: inline-block;
+		width: 46%;
+		text-align: left;
+		margin: 5px;
 	}
-	
-.topnav a.icon {
+	.topnav a.icon {
 		display: hidden;
 	}
-
-
-.tile1 {
+	.tile1 {
 		display: inline-block;
 		width: 40%;
 		text-align: left;
 		margin: 5px;
 	}
-
-.yellow, .blue {
-	display: inline-block;
-	width: 46%;
-	text-align: left;
-	margin: 5px;
+	.yellow, .blue {
+		display: inline-block;
+		width: 46%;
+		text-align: left;
+		margin: 5px;
 	}
-
 	/*#profile {
 		position: absolute;
 		position: fixed;
@@ -93,10 +67,7 @@
 		position: absolute;
 		left: 200px;
 	}*/
-
-
-
-/*
+	/*
 	#project-nav ul {
   	list-style: none;
   	text-align: center;
@@ -105,158 +76,81 @@
 
 }
 */
-
-
-	
-
 }
-
-
-
-
-
 @media only screen and (min-width: 800px) {
-
-	.topnav a  {
-	   float: left;
+	.topnav a {
+		float: left;
 		display: block;
 		color: grey;
-		color:grey;
+		color: grey;
 		bottom: 0px;
-	    text-align: center;
-	    padding: 14px 16px;
-	    text-decoration: none;
-	    padding-top: 10px;
-
-
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		padding-top: 10px;
 	}
-
 	.topnav a:not(:first-child) {
-  		display: inline;
-  		
-
+		display: inline;
 	}
-
 	.topnav a.icon {
 		display: none;
 	}
-
-
 	.yellow, .blue {
-	display: inline-block;
-	width: 46%;
-	text-align: left;
-	margin: 5px;
-
+		display: inline-block;
+		width: 46%;
+		text-align: left;
+		margin: 5px;
 	}
-	
-.topnav a.icon {
+	.topnav a.icon {
 		display: hidden;
 	}
-
-
-
-
-
 	/*About Me Page*/
-
 	.eventtext {
 		position: relative;
 		float: right;
 	}
-
 	/*.projectheader {
 
   	margin-top: 9%;
 
 	}
 */
-
-
-
-
-
-
 }
-
 /*keep*/
 
-
 @media screen and (min-width: 1000px) {
-
 	.welcomeblock {
 		background-size: cover;
-
 	}
-
-		#project-nav ul {
-	  list-style: none;
-	  text-align: left;
-	  padding-left: 5px;
-	  position: fixed;
-
-
+	#project-nav ul {
+		list-style: none;
+		text-align: left;
+		padding-left: 5px;
+		position: fixed;
 	}
-
-	
-
 	/*#project-nav ul li a {
 		display: block;
 		margin: 0 0.5em;
 		color: white;
 
 	}*/
-
 	.projectheader {
-
-  	margin-top: 10%;
-
+		margin-top: 10%;
+	}
 }
-
-
-
-}
-
 @media screen and (min-width: 1000px) {
 	.welcomeblock h1 {
 		font-size: 32px;
 	}
-
 }
-
-
-
-
 @media screen and (max-width: 650px) {
 	.welcomeblock h1 {
 		font-size: 17px;
 	}
-
 	.welcomeblock {
 		background-size: cover;
-
 	}
-
 }
-
-
 /*END HOME PAGE*/
 
 /*About ME Begins*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
