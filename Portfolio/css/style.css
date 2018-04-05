@@ -183,6 +183,13 @@ font-size: 42px;
   text-decoration: none;
 }
 
+
+.crafts h2 a:hover{
+
+  font-weight: bold;
+  
+}
+
 .crafts h2 {
   font-size: 20px;
   color: black;
@@ -376,14 +383,12 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 
 
 .projectheader {
-  margin-top: 60px;
+  /*margin-top: 40px;*/
   background-color: #002461;
   color: white;
   margin: auto;
   height: 12em;
-  margin-left: 2%;
-  margin-right: 2%;
-  margin-top: 30%;
+  margin-top: 100px;
 
 }
 
@@ -420,6 +425,7 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 
 #project-nav ul li a {
   list-style: none;
+  text-decoration: none;
   display: block;
   color: grey;
   height: 30px;
@@ -454,6 +460,12 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   margin-bottom: 30px;
 }
 
+
+#project-nav ul li a:hover {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
 
 /*Animation*/
 
