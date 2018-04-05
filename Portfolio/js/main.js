@@ -181,30 +181,14 @@ $(document).ready(() => {
 
 
 
-
 function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
+    var mynav = document.getElementById("myTopnav");
+    if (mynav.className === "topnav") {
+        mynav.className += " responsive";
     } else {
-        x.className = "topnav";
+        mynav.className = "topnav";
     }
 }
 
-function update(previewPic) {
-		var alttext = previewPic.getAttribute("alt");
-		var actualimage = previewPic.getAttribute("src");
-
-		document.getElementById("image").style.backgroundImage = "url('"+actualimage+"')";
-		document.getElementById("image").innerHTML = alttext;
-
-	}
-
-	function undo(){
-
-		document.getElementById("image").style.backgroundImage = "none";
-		document.getElementById("image").innerHTML = "Hover over an image below.";
-
-	}
 
   
