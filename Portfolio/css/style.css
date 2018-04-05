@@ -376,7 +376,7 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 
 
 .projectheader {
-  margin-top: 50px;
+  margin-top: 60px;
   background-color: #002461;
   color: white;
   margin: auto;
@@ -388,7 +388,7 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .projecteyebrow {
-  padding-top: 10px;
+  padding-top: 20px;
   padding-left: 10px;
   font-size: 12px;
 }
@@ -453,6 +453,9 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   margin-left: 10px;
   margin-bottom: 30px;
 }
+
+
+/*Animation*/
 
 
 
