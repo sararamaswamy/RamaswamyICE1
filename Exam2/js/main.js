@@ -5,6 +5,10 @@ $(document).ready(function() {
 
 		$(".umsi").attr("align", "left");
 
+
+
+		
+
 	})
 
 	$("#show").on('click', function() {
@@ -13,6 +17,7 @@ $(document).ready(function() {
 
 
 	})
+
 
  });
 
