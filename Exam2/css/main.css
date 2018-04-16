@@ -1,0 +1,12 @@
+.body {
+	background-image: url("../images/funky-lines.png");
+}
+
+.img {
+	display: inline;
+	border: solid blue 5px;
+	padding: 5%;
+	box-sizing: border-box;
+	width: 49%;
+}
+
